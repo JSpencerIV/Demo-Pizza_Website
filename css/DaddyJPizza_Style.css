@@ -1,117 +1,83 @@
-/*------------------
-Container1
---------------------*/
 body {
-	text-align: c
+	background-image: url(../img/PizzaPic.jpg);
+}
+.header {
+	text-align: center;
+	color: red;
 }
 
-
-/*------------------
-Page title
-------------------*/
-h1 {margin-left:42%;
+.BContainer {
+	display: block;
+	position: fixed;
+	left: 45%;
+	bottom: 10%;
 }
 
-
-/*------------------
-menu container
-------------------*/
-.container {
-	float:left;
-	margin-top: 70%;
-	margin-left: 50%;
+.BPlaceorder {
+	padding-bottom: 25%;
 }
 
-
-
-/*------------------
- Cancel Button 
-------------------*/
-.container1 {
-	float:left;
-	margin-top: 40%;
+.CancelButton {
+	text-align: center;
 }
 
-
-/*------------------
- Cancel Button 
-------------------*/
-.container2 {
-	float:left;
-	margin-top: 40%;
+button {
+	padding: 10px;
 }
 
-/*------------------
-Place Order Button 
-------------------*/
-.OrderButton {margin-left:10%;
+#MContainer {
+	
 }
 
-/*------------------
-Button size
--------------------*/
-button {padding:10px;
+.MenuSize {
+	display: inline-block;
+	background-color: white;
+	position: fixed;
+	left:24%;
+	bottom: 61%; 
 }
 
-
-/*--------------------
- Menu buttons Size
---------------------*/
-.MenuSi {
-	float:left;
-	margin-right: 10%;
+.MenuMeat {
+	display: inline-block;
+	background-color: white;
+	position: fixed;
+	left:45%;
+	bottom: 55%; 	
 }
 
-/*--------------------
- Menu buttons Meat
---------------------*/
-.MenuM { 
-	float:left;
-	margin-right: 10%;
-}
-
-/*--------------------
- Menu buttons Veggie
---------------------*/
-.MenuV {float:left;
-	margin-left: 1%;
-
-}
-
-/*--------------------
- Menu buttons cheese
---------------------*/
 .MenuCh {
-	float:left;
-	margin-left: 10%;
+	display: inline-block;
+	background-color: white;
+	position: fixed;
+	left:65%;
+	bottom: 64%;
 }
 
-/*--------------------
- Menu buttons Sauce
---------------------*/
-.MenuSa { 
-	float:left;
-	margin-left: 10%;
+.MenuVeg {
+	display: inline-block;
+	background-color: white;
+	position: fixed;
+	left: 24%;
+	bottom: 20%;	
 }
 
-/*--------------------
- Menu buttons crust
---------------------*/
+.MenuSa {
+	display: inline-block;
+	background-color: white;
+	position: fixed;
+	left:45%;
+	bottom: 29%;
+}
+
 .MenuCr {
-	float:left;	
-	margin-left: 10%;
+	display: inline-block;
+	background-color: white;
+	position: fixed;
+	left: 65%;
+	bottom: 26%;
 }
 
-
-/*------------------
-cart
-------------------*/
-#cart { 
-	margin-top: 50%;
-    margin-left: 50%;
+#cart {
+	background-color: white;
+	float: right;
 }
-
-
-
-
-
