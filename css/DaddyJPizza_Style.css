@@ -1,0 +1,117 @@
+/*------------------
+Container1
+--------------------*/
+body {
+	text-align: c
+}
+
+
+/*------------------
+Page title
+------------------*/
+h1 {margin-left:42%;
+}
+
+
+/*------------------
+menu container
+------------------*/
+.container {
+	float:left;
+	margin-top: 70%;
+	margin-left: 50%;
+}
+
+
+
+/*------------------
+ Cancel Button 
+------------------*/
+.container1 {
+	float:left;
+	margin-top: 40%;
+}
+
+
+/*------------------
+ Cancel Button 
+------------------*/
+.container2 {
+	float:left;
+	margin-top: 40%;
+}
+
+/*------------------
+Place Order Button 
+------------------*/
+.OrderButton {margin-left:10%;
+}
+
+/*------------------
+Button size
+-------------------*/
+button {padding:10px;
+}
+
+
+/*--------------------
+ Menu buttons Size
+--------------------*/
+.MenuSi {
+	float:left;
+	margin-right: 10%;
+}
+
+/*--------------------
+ Menu buttons Meat
+--------------------*/
+.MenuM { 
+	float:left;
+	margin-right: 10%;
+}
+
+/*--------------------
+ Menu buttons Veggie
+--------------------*/
+.MenuV {float:left;
+	margin-left: 1%;
+
+}
+
+/*--------------------
+ Menu buttons cheese
+--------------------*/
+.MenuCh {
+	float:left;
+	margin-left: 10%;
+}
+
+/*--------------------
+ Menu buttons Sauce
+--------------------*/
+.MenuSa { 
+	float:left;
+	margin-left: 10%;
+}
+
+/*--------------------
+ Menu buttons crust
+--------------------*/
+.MenuCr {
+	float:left;	
+	margin-left: 10%;
+}
+
+
+/*------------------
+cart
+------------------*/
+#cart { 
+	margin-top: 50%;
+    margin-left: 50%;
+}
+
+
+
+
+
