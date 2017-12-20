@@ -6,25 +6,28 @@
 		 <link rel="stylesheet" href="./css/DaddyJPizza_Style.css">	
 	</head>
 	<body>
-	<!-- OrderMenuContainer -->
-	 	<div id="OrderMenuContainer">    
-	<!-- Page Title --> 	
-	 	<h1>Daddy J's Pizza</h1>
-	<!-- Place Order button/getReceipt function --> 
-		<div class = "container1">
-	 		<div class="OrderButton">
+
+	<!-- page header -->
+	 	<div class = "header">    	
+	 		<h1>Daddy J's Pizza</h1>
+	 	</div>
+	<!-- page header --> 
+
+	<!-- Place Order/Cancel button/getReceipt function --> 
+		<div class = "BContainer">
+	 		<div class="BPlaceorder">
  				<button name="Place_Order" onclick="getReceipt();">Place Order</button>
  			</div>
- 		</div>
- 	<!-- Place Order button/getReceipt function -->
- 		<div class = "container2">
-	 		<div class="CancelButton">
+ 			<div class="CancelButton">
  				<button name="Place_Order" onclick="clearAll();">Cancel</button>
  			</div>
  		</div>
-<!-- Menu Pizza Menu buttons -->
-		<Form id="frmMenu">
- 			<div class="MenuSi">
+ 	<!-- Place Order/Cancel button/getReceipt function --> 
+ 		
+<!--Pizza Menu buttons -->
+		<div id="MContainer">
+		
+ 			<div class="MenuSize">
 	 			<h3>Size:</h3>
 	 			<input class="size" type="radio" name="Size" value="Personal Pizza">Personal Pizza<br>
 	 			<input class="size" type="radio" name="Size" value="Medium Pizza">Medium Pizza<br>
@@ -32,7 +35,7 @@
 	 			<input class="size" type="radio" name="Size" value="Extra Large Pizza">Extra Large Pizza<br>
 	 		</div>
 
-	 		<div class="MenuM">
+	 		<div class="MenuMeat">
 	 			<h3>Meats:</h3>
 	 			<input class="meats" type="checkbox" name="meats" value="Pepperoni">Pepperoni<br>
 	 			<input class="meats" type="checkbox" name="meats" value="Sausage">Sausage<br>
@@ -42,7 +45,7 @@
 	 			<input class="meats" type="checkbox" name="meats" value="Chicken">Chicken<br>
 	 		</div>
 
-			<div class="MenuV">
+			<div class="MenuVeg">
 	 			<h3>Veggies:</h3>
 	 			<input class="veggies" type="checkbox" name="Veggies" value="Tomatoes">Tomatoes<br>
 	 			<input class="veggies" type="checkbox" name="Veggies" value="Onions">Onions<br>
@@ -75,32 +78,20 @@
 	 			<input class="crust" type="radio" name="crust" value="Spicy Crust">Spicy Crust<br>
 	 			<input class="crust" type="radio" name="crust" value="House Special Crust">House Special Crust<br>
 	 		</div>
-	 </form><br>
-<!-- Menu Pizza Menu buttons -->	
+	 </div><br>
+	 
+<!-- Pizza Menu buttons -->	
 	
 		<!-- Cart -->
+		
 		 		<div id="cart">
 						<div id="showText"></div>
 						<div id="totalPrice"></div>
 				</div>
+		
 		<!-- Cart -->
+
 		<script src="./js/DaddyJScript.js"></script>
 
-
-
-
-		</div>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	</body>
-</html>	
+</html>
