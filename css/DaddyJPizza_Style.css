@@ -31,7 +31,7 @@ button {
 
 .MenuSize {
 	display: inline-block;
-	background-color: white;
+	background-color: #f0f8ff;
 	position: fixed;
 	left:24%;
 	bottom: 61%; 
