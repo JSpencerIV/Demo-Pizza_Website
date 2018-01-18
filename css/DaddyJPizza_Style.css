@@ -31,7 +31,7 @@ button {
 
 .MenuSize {
 	display: inline-block;
-	background-color: #f0f8ff;
+	background-color: #ffffff;
 	position: fixed;
 	left:24%;
 	bottom: 61%; 
@@ -39,7 +39,7 @@ button {
 
 .MenuMeat {
 	display: inline-block;
-	background-color: white;
+	background-color: #ffffff;
 	position: fixed;
 	left:45%;
 	bottom: 55%; 	
@@ -47,7 +47,7 @@ button {
 
 .MenuCh {
 	display: inline-block;
-	background-color: white;
+	background-color: #ffffff;
 	position: fixed;
 	left:65%;
 	bottom: 64%;
@@ -55,7 +55,7 @@ button {
 
 .MenuVeg {
 	display: inline-block;
-	background-color: white;
+	background-color: #ffffff;
 	position: fixed;
 	left: 24%;
 	bottom: 20%;	
@@ -63,7 +63,7 @@ button {
 
 .MenuSa {
 	display: inline-block;
-	background-color: white;
+	background-color: #ffffff;
 	position: fixed;
 	left:45%;
 	bottom: 29%;
@@ -71,7 +71,7 @@ button {
 
 .MenuCr {
 	display: inline-block;
-	background-color: white;
+	background-color: #ffffff;
 	position: fixed;
 	left: 65%;
 	bottom: 26%;
